@@ -1,0 +1,100 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #007C95;
+  height: 100px;
+  width: 100%;
+  color: white;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  width: 400px;
+}
+
+.lefty {
+  margin: 6px;
+}
+
+.leftyTitle {
+  font-size: 32px;
+  color: white !important;
+  margin: 6px;
+}
+
+.logo {
+  height: 40%;
+}
+
+.title {
+  color: white;
+}
+
+.title:active {
+  color: white;
+}
+
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-link {
+  font-size: 15px;
+}
+
+.middleLink {
+  color: white;
+  padding: 15px;
+}
+
+.middleLink:visited {
+  color: white;
+  background-color: white;
+}
+
+.middleLink:hover {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 35px;
+  border: solid 1px white;
+  background-color: #80aafe;
+  color: white;
+  padding: 2px 15px;
+  margin: 10px;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-menu {
+  margin: 10px !important;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.user-image {
+  max-height: 75px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.activeHeader {
+  background-color: white !important;
+}

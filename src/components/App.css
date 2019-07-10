@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+  padding: 80px;
+}
+.canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Select {
+  z-index: 100;
+  width: 200px;
+  margin-right: 12px;
+  display: inline-block;
+}
+.Selectors {
+  display: inline-block;
+  width: 100%;
+  margin: 12px 40px;
+  z-index: 50;
+}
+.Selectors .DepartmentTitle {
+  margin-top: -40px;
+}
+.Selectors .Export {
+  float: right;
+}
+.ExportBtn {
+  width: 100px;
+  height: 34px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007C95;
+  font-size: 15px;
+  border: none;
+}
+.analyzeBtn {
+  width: 150px;
+  height: 34px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007C95;
+  font-size: 15px;
+  border: none;
+  margin-left: 15px;
+}
+
+.borderExterior {
+  height: 10px;
+  width: 100%;
+}
+
+.rightFilters {
+  display: inline-flex;
+  float: right;
+}
+
+.ui.grid.new-grid {
+  margin-top: 4px;
+  padding: 15px 30px;
+  background-color: #eee;
+  height: 1000px;
+  box-sizing: border-box;
+}
+
+.graph-block {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.graph-dv1 {
+  height: 400px;
+}
+
+.graph-dv2 {
+  height: 440px;
+}
+
+.graph-dv3 {
+  height: 200px;
+}
+
+.graph-bi1 {
+  height: 640px;
+}
+
+/* This removed the loading symbol from DV */
+/* Comment out to add the loading symbol for each DV visualization */
+.bi_loadingContainer {
+  display: none !important;
+}
