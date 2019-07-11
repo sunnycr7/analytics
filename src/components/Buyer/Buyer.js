@@ -9,16 +9,16 @@ class Buyer extends React.Component {
       <div>
         {/* container for all visualizations */}
         <div>
-          <div className="buyer ui grid new-grid">
+          <div className="ui grid new-grid">
             <div className="column sixteen wide graph-col">
 
               {/* data visualization for stacked bar graph */}
               <h3 className="dashboard-title">PURCHASE ORDERS</h3>
               <div className="graph-block graph-dv1">
                 <DVGraph
-                  path="/shared/GE/GE Analytics"
+                  path="/shared/GE/Purchase Order"
                   activeTab="1"
-                  showFilter={false}
+                  showFilter={true}
                 />
               </div>
 
@@ -26,7 +26,7 @@ class Buyer extends React.Component {
               <h3 className="dashboard-title">INVOICES</h3>
               <div className="graph-block graph-dv2">
                 <DVGraph
-                    path="/shared/GE/GE Analytics"
+                    path="/shared/GE/Invoice"
                     activeTab="2"
                     showFilter={false}
                   />

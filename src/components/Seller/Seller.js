@@ -9,44 +9,26 @@ class Seller extends React.Component {
       <div>
         {/* container for all visualizations */}
         <div>
-          <div className="seller ui grid new-grid">
-            <div className="column six wide graph-col">
+          <div className="ui grid new-grid">
+            <div className="column sixteen wide graph-col">
 
               {/* data visualization for stacked bar graph */}
+              <h3 className="dashboard-title">PURCHASE ORDERS</h3>
               <div className="graph-block graph-dv1">
                 <DVGraph
-                  path="/shared/GE/GE Analytics"
+                  path="/shared/GE/Purchase Order"
                   activeTab="1"
-                  showFilter={false}
+                  showFilter={true}
                 />
               </div>
 
               {/* data visualization for termination reason tree graph */}
+              <h3 className="dashboard-title">INVOICES</h3>
               <div className="graph-block graph-dv2">
                 <DVGraph
-                    path="/shared/GE/GE Analytics"
+                    path="/shared/GE/Invoice"
                     activeTab="2"
                     showFilter={false}
-                  />
-              </div>
-            </div>
-            <div className="column ten wide graph-col">
-
-              {/* data visualization for line graph */}
-              <div className="graph-block graph-dv3">
-                <DVGraph
-                    path="/shared/GE/GE Analytics"
-                    activeTab="3"
-                    showFilter={false}
-                  />
-              </div>
-
-              {/* dashboard that contains a drilldown from department level to employee level */}
-              <div className="graph-block graph-bi1">
-                <DVGraph
-                    path="/shared/GE/GE Analytics"
-                    activeTab="4"
-                    showFilter={true}
                   />
               </div>
             </div>
