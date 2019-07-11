@@ -59,7 +59,7 @@
   margin-top: 4px;
   padding: 15px 30px;
   background-color: #eee;
-  height: 1000px;
+  height: 1800px;
   box-sizing: border-box;
 }
 
@@ -70,19 +70,18 @@
 }
 
 .graph-dv1 {
-  height: 400px;
+  height: 800px;
 }
 
 .graph-dv2 {
-  height: 440px;
+  height: 800px;
 }
 
-.graph-dv3 {
-  height: 200px;
-}
-
-.graph-bi1 {
-  height: 640px;
+.dashboard-title {
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-size: 22px;
+  color: #295db8;
+  font-weight: 400;
 }
 
 /* This removed the loading symbol from DV */
