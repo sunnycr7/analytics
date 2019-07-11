@@ -26,9 +26,9 @@ class Buyer extends React.Component {
               <h3 className="dashboard-title">INVOICES</h3>
               <div className="graph-block graph-dv2">
                 <DVGraph
-                    path="/shared/GE/Invoice"
-                    activeTab="2"
-                    showFilter={false}
+                    path="/shared/GE/Blockchain Analytics"
+                    activeTab="5"
+                    showFilter={true}
                   />
               </div>
             </div>
