@@ -103,3 +103,6 @@ body {
 .bi_filterbar_filterscontainer_clip_div {
   overflow-y: hidden;
 }
+#__oj_zorder_container {
+  display: none;
+}
