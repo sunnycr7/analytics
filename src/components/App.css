@@ -2,10 +2,14 @@
   text-align: center;
   padding: 80px;
 }
+body {
+  overflow: hidden;
+}
 .canvas {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
 }
 .Select {
   z-index: 100;
@@ -58,7 +62,7 @@
 .ui.grid.new-grid {
   margin-top: 4px;
   padding: 15px 30px;
-  background-color: #eee;
+  background-color: #f7f7f7;
   height: 1000px;
   box-sizing: border-box;
 }
@@ -89,16 +93,13 @@
 .bi_loadingContainer {
   display: none !important;
 }
-
 .bi_filterbar_tilewrapper {
   height: 100% !important;
   max-height: 100% !important;
 }
-
 [class^="bi_filterbar_padding"] {
   width: 0 !important;
 }
-
 .bi_filterbar_filterscontainer_clip_div {
   overflow-y: hidden;
 }
