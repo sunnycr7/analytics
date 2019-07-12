@@ -89,3 +89,16 @@
 .bi_loadingContainer {
   display: none !important;
 }
+
+.bi_filterbar_tilewrapper {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+
+[class^="bi_filterbar_padding"] {
+  width: 0 !important;
+}
+
+.bi_filterbar_filterscontainer_clip_div {
+  overflow-y: hidden;
+}
