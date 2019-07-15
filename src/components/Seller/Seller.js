@@ -16,7 +16,7 @@ class Seller extends React.Component {
               <h3 className="dashboard-title">PURCHASE ORDERS</h3>
               <div className="graph-block graph-dv1">
                 <DVGraph
-                  path="/shared/GE/Purchase Order"
+                  path="/shared/GE/PO"
                   activeTab="1"
                   showFilter={true}
                 />
@@ -26,7 +26,7 @@ class Seller extends React.Component {
               <h3 className="dashboard-title">INVOICES</h3>
               <div className="graph-block graph-dv2">
                 <DVGraph
-                    path="/shared/GE/Invoice"
+                    path="/shared/GE/New Invoice"
                     activeTab="5"
                     showFilter={false}
                   />
